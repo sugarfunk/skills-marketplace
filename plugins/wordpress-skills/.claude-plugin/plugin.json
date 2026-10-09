@@ -1,0 +1,7 @@
+{
+  "name": "wordpress-skills",
+  "description": "WordPress development skills vendored from WordPress/agent-skills (GPL-2.0-or-later)",
+  "author": { "name": "WordPress Contributors" },
+  "homepage": "https://github.com/WordPress/agent-skills",
+  "license": "GPL-2.0-or-later"
+}
