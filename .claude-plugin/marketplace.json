@@ -19,6 +19,7 @@
         "./skills/wp-block-development",
         "./skills/wp-block-themes",
         "./skills/wp-plugin-development",
+        "./skills/wp-patterns",
         "./skills/wp-rest-api",
         "./skills/wp-interactivity-api",
         "./skills/wp-abilities-api",
