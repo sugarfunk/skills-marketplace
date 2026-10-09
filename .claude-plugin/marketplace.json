@@ -1,0 +1,38 @@
+{
+  "name": "bart-skills",
+  "description": "Bart's personal skill marketplace. Skills are pulled live from upstream repos.",
+  "owner": {
+    "name": "Bart"
+  },
+  "plugins": [
+    {
+      "name": "wordpress-skills",
+      "description": "WordPress development skills from the official WordPress/agent-skills repo (blocks, themes, plugins, REST API, WP-CLI, performance, Playground)",
+      "source": {
+        "source": "github",
+        "repo": "WordPress/agent-skills",
+        "ref": "trunk"
+      },
+      "skills": [
+        "./skills/wordpress-router",
+        "./skills/wp-project-triage",
+        "./skills/wp-block-development",
+        "./skills/wp-block-themes",
+        "./skills/wp-plugin-development",
+        "./skills/wp-rest-api",
+        "./skills/wp-interactivity-api",
+        "./skills/wp-abilities-api",
+        "./skills/wp-abilities-audit",
+        "./skills/wp-abilities-verify",
+        "./skills/wp-wpcli-and-ops",
+        "./skills/wp-performance",
+        "./skills/wp-phpstan",
+        "./skills/wp-playground",
+        "./skills/wpds",
+        "./skills/wp-plugin-directory-guidelines",
+        "./skills/blueprint",
+        "./skills/wp-env"
+      ]
+    }
+  ]
+}
