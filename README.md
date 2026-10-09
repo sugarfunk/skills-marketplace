@@ -5,8 +5,9 @@ nothing is copied here and updates come from the source.
 
 ## Add it
 
-Claude desktop app: Plugins, Add marketplace, enter `sugarfunk/skills-marketplace`.
-Claude Code: `/plugin marketplace add sugarfunk/skills-marketplace`
+Claude Code: `/plugin marketplace add https://git.dyercloud.com/bart/skills-marketplace.git`
+Claude desktop app: Plugins, Add marketplace, same URL (self-hosted git hosts are not
+listed as supported by the desktop docs, so this may need a GitHub mirror).
 
 ## Updating
 
